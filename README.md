@@ -1,11 +1,11 @@
 # MagicMirror Canvas
-This is a module for `MagicMirror²` which displays upcoming assignments from the Canvas LMS. The Canvas LMS is used by colleges, universities and other institutions for coursework.
+This is a module for `MagicMirror²` which displays upcoming assignments from the School Loop LMS. The School Loop LMS is used by middle schools, high schools and other institutions for coursework.
 
 ## Installation
 1.  Clone this repository into your MagicMirror `modules` folder.
 ```
 cd /home/pi/MagicMirror/modules
-git clone https://github.com/chase-cromwell/MMM-Canvas.git
+git clone https://github.com/child-duckling/MMM-SchoolLoop.git
 ```
 2.  Edit your configuration file under `config/config.js` with the following configuration.
 ```
@@ -36,4 +36,5 @@ git clone https://github.com/chase-cromwell/MMM-Canvas.git
 MagicMirror²:   [MagicMirror²](https://github.com/MichMich/MagicMirror)   
 Based heavily on the MMM-Lice (Live International Currency Exchange) module by mkyle1
 MMM-LICE:    [MMM-LICE](https://github.com/mykle1/MMM-LICE)
-CanvasAPI:  [CanvasAPI](https://canvas.instructure.com/doc/api/index.html)
+Break:  [Break](https://github.com/saagarjha/break)
+OpenLoop [OpenLoop](https://schoolloop.com/pf4/cms2/view_page?d=x&group_id=1516954809004&vdid=i7fcm1t7v9bh4)
