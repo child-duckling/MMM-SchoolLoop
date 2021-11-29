@@ -6,18 +6,27 @@
  * By Chase Cromwell
  *
  */
-Module.register("MMM-Canvas", {
+Module.register("MMM-SchoolLoop", {
 
     // Module config defaults.
     defaults: {
-		accessKey: "", //Access key
-    updateInterval: 60 * 60 * 1000, //One hour
-    colors: ["blue",],
-    courses: ["28733",],
-    urlbase: "dummyurl.edu",
-    assignMaxLen: 35,
-    assignToDisplay: 12,
-    },
+  module: "MMM-SchoolLoop",
+  position: "top_right",
+  config: {
+	updateInterval: 60 * 60 * 1000, //One hour
+	colors: ["blue", "red",],
+	user: {
+        	username: "user",
+        	password: "pass",
+    	},
+    	subdomain: "onlinelearning",
+    	assignMaxLen: 35,
+    	assignToDisplay: 3,
+  }
+}
+
+
+
 
     getStyles: function() {
         return ["canvas.css"];
