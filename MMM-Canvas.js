@@ -1,6 +1,8 @@
 /* Magic Mirror
- * Module: MMM-CANVAS
+ * Module: MMM-SCHOOLLOOP
+ * By ChildDuckling (duck@duckling.pw)  
  *
+ * Fork of MMM-Canvas
  * By Chase Cromwell
  *
  */
